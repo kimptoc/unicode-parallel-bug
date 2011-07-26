@@ -24,3 +24,8 @@ uninitialized constant ActiveSupport::Multibyte::Chars
 Not quite the expected error - but perhaps related.  Was hoping for this error:
 
 ActiveSupport::Multibyte is not missing constant Unicode
+
+NOTES:
+
+1)  assumed use of RVM to manage ruby versions/gems
+2)  branches 1.9.2 and 1.8.7 exist, testing the same with MRI  - they seem to work ok.
