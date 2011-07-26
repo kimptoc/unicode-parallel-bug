@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359aa8b9-ca14-4727-9105-f22a7ca1fd79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/unicode-parallel-bug.iml" afterPath="$PROJECT_DIR$/.idea/unicode-parallel-bug.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.rvmrc" afterPath="$PROJECT_DIR$/.rvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/test_main.rb" afterPath="$PROJECT_DIR$/app/models/test_main.rb" />
     </list>
     <ignored path="unicode-parallel-bug.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_main.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test_main.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/test_main.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="44" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.038961038">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="56" selection-start="999" selection-end="999" vertical-scroll-proportion="0.91935486">
+            <state line="5" column="33" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,7 +60,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
+            <state line="35" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,9 +77,9 @@
       <list>
         <option value="$PROJECT_DIR$/lib/tasks/test_it.rake" />
         <option value="$PROJECT_DIR$/lib/test_main.rb" />
+        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/test_main.rb" />
-        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -419,13 +424,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/test_it.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="33" selection-start="100" selection-end="100" vertical-scroll-proportion="0.46753246">
@@ -433,16 +431,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/test_main.rb">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+        <state line="5" column="33" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="56" selection-start="999" selection-end="999" vertical-scroll-proportion="0.91935486">
+        <state line="35" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/test_main.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.038961038">
           <folding />
         </state>
       </provider>

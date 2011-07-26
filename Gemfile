@@ -32,4 +32,4 @@ gem 'sqlite3'
 # end
 
 gem "parallel"
-gem "fastercsv"
+#gem "fastercsv"

@@ -1,3 +1,5 @@
+require 'csv'
+
 class TestMain
 
   def go
@@ -16,7 +18,7 @@ class TestMain
 
   def load_csv
     puts "load csv"
-    arr_of_rows = FasterCSV.read("counties_view.csv")
+    arr_of_rows = CSV.read("counties_view.csv")
     counties = []
     arr_of_rows.each {|row| counties << row[5]}
     return counties

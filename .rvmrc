@@ -1,1 +1,2 @@
-rvm jruby@p-unicode-paralle-bug
+#rvm jruby@p-unicode-paralle-bug
+rvm 1.9.2@p-unicode-paralle-bug
