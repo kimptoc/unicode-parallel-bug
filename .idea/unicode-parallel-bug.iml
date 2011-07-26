@@ -12,7 +12,6 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -40,8 +39,8 @@
     <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.0.9, RVM: jruby-1.6.3 [p-unicode-paralle-bug]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.0.9, RVM: jruby-1.6.3 [p-unicode-paralle-bug]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v3.0.9, RVM: jruby-1.6.3 [p-unicode-paralle-bug]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.16, RVM: jruby-1.6.3 [p-unicode-paralle-bug]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v2.1.2, RVM: jruby-1.6.3 [p-unicode-paralle-bug]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.16, RVM: jruby-1.6.3 [p-unicode-paralle-bug]) [gem]" level="application" />
   </component>
 </module>
 
