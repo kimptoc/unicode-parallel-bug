@@ -3,7 +3,7 @@ This project is just to demonstrate a bug I am seeing when using unicode in para
 To run it:
 
 gem install bundler
-bundle install
+bundle install       # note the Gemfile assumes the use of the local proxy rubygems.dev.  If not, switch it with the line above it.
 
 rake test_it
 
