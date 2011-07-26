@@ -1,1 +1,26 @@
 This project is just to demonstrate a bug I am seeing when using unicode in parallel - hopefully.
+
+To run it:
+
+gem install bundler
+bundle install
+
+rake test_it
+
+This loads a csv file of unicode'd words and tries to convert them to ascii - doing it in parallel.
+
+Works fine when not run in parallel.
+
+Gives this error:
+
+uninitialized constant ActiveSupport::Multibyte::Chars
+/Users/kimptoc/.rvm/gems/jruby-1.6.3@p-unicode-paralle-bug/gems/activesupport-3.0.9/lib/active_support/multibyte.rb:22:in `proxy_class'
+/Users/kimptoc/.rvm/gems/jruby-1.6.3@p-unicode-paralle-bug/gems/activesupport-3.0.9/lib/active_support/core_ext/string/multibyte.rb:59:in `mb_chars'
+/Users/kimptoc/Documents/ruby/ecom/unicode-parallel-bug/app/models/test_main.rb:27:in `replace_non_ascii'
+/Users/kimptoc/Documents/ruby/ecom/unicode-parallel-bug/app/models/test_main.rb:13:in `go'
+...
+
+
+Not quite the expected error - but perhaps related.  Was hoping for this error:
+
+ActiveSupport::Multibyte is not missing constant Unicode
